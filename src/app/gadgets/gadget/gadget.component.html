@@ -1,0 +1,14 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <p>User ID: {{ gadget.id }}</p>
+            <p>User Name: {{ gadget.name }}</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-xs-12">
+            <a [routerLink]="['/gadgets', 10, 'Anna']">Load Anna (10)</a>
+        </div>
+    </div>
+</div>
